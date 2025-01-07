@@ -29,14 +29,23 @@ This project demonstrates how to perform Neural Style Transfer (NST) as well as,
 5. *Optimization* --> The generated image is updated to minimize the total loss using the Adam optimizer.
 
 ## Example (NST)
-*Using a small beta value*
+Using a small $\beta$ value
 
 <img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/48c88198-0236-4278-b0bf-91530786eb6c" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/170d8964-de5b-46a4-9bfa-04184caa87e0" width="224" height="224">
 
-*Using a large beta value*
+Using a large $\beta$ value
 
 <img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/48c88198-0236-4278-b0bf-91530786eb6c" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/f4c90302-0095-4879-9e5f-a1abcd23faba" width="224" height="224">
 
 ## Example (MNST)
+
+Using smaller $\beta_{1}$ and $\beta_{2}$ values
+
+<img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/e6246949-9d2c-48dd-b12b-27c2dedf7525" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/58bde1cd-f90b-40d0-9db6-01ebe214f53a" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/9e75dd47-c13f-4553-b996-6306f6f1bb90" width="224" height="224">
+
+Using larger $\beta_{1}$ and $\beta_{2}$ values
+
+<img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/e6246949-9d2c-48dd-b12b-27c2dedf7525" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/58bde1cd-f90b-40d0-9db6-01ebe214f53a" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/f969f5ca-c3ab-4432-b2c0-c7b3553dfa2a" width="224" height="224">
+
 
 
