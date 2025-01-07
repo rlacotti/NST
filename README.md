@@ -23,3 +23,6 @@ This project demonstrates how to perform Neural Style Transfer (NST) as well as,
 1. *Content Image* --> The image whose content will be preserved.
 2. *Style Image(s)* --> The style images the contribute their artistic features to the final generated image.
 3. *VGG19 Model* --> Pretrained network to extract content and style features.
+4. *Loss Functions*:
+   1. *Total Loss (NST)* --> 
+   2. 
