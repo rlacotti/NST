@@ -25,5 +25,5 @@ This project demonstrates how to perform Neural Style Transfer (NST) as well as,
 3. *VGG19 Model* --> Pretrained network to extract content and style features.
 4. *Loss Functions*:
    1. *Total Loss (NST)* --> $L_{NST} (c,s,g) = \alpha L_{content} (c,g) + \beta L_{style} (s,g) $
-   2. *Total Loss (MNST)* --> $L_{MNST} (c,s1,s2,g) = \alpha L_{content} (c,g) + \beta L_{style1} (s1,g) + \beta L_{style2} (s2,g)$
+   2. *Total Loss (MNST)* --> $L_{MNST} (c,s_{1},s_{2},g) = \alpha L_{content} (c,g) + \beta L_{style1} (s_{1},g) + \beta L_{style2} (s_{2},g)$
 5. *Optimization* --> The generated image is updated to minimize the total loss using the Adam optimizer.
