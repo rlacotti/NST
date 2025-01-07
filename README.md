@@ -27,3 +27,16 @@ This project demonstrates how to perform Neural Style Transfer (NST) as well as,
    1. *Total Loss (NST)* --> $L_{NST} (c,s,g) = \alpha L_{content} (c,g) + \beta L_{style} (s,g) $
    2. *Total Loss (MNST)* --> $L_{MNST} (c,s_{1},s_{2},g) = \alpha L_{content} (c,g) + \beta L_{style1} (s_{1},g) + \beta L_{style2} (s_{2},g)$
 5. *Optimization* --> The generated image is updated to minimize the total loss using the Adam optimizer.
+
+## Example (NST)
+*Using a small beta value*
+
+<img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/48c88198-0236-4278-b0bf-91530786eb6c" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/170d8964-de5b-46a4-9bfa-04184caa87e0" width="224" height="224">
+
+*Using a large beta value*
+
+<img src="https://github.com/user-attachments/assets/cbe05433-8eb6-4edb-9007-80e541d61f32" width="224" height="224"> + <img src="https://github.com/user-attachments/assets/48c88198-0236-4278-b0bf-91530786eb6c" width="224" height="224"> == <img src="https://github.com/user-attachments/assets/f4c90302-0095-4879-9e5f-a1abcd23faba" width="224" height="224">
+
+## Example (MNST)
+
+
